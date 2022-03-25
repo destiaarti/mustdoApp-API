@@ -1,6 +1,6 @@
 # Step
 
-install ruby : 
+1. install ruby : 
 
 - rails new mustdo -d postgresql  >> if with postgresql db
 

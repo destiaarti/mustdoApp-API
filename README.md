@@ -1,24 +1,14 @@
-# README
+# Step
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. install ruby : 
+- rails new [name_project] -d [db]
 
-Things you may want to cover:
+- rails new mustdo -d postgresql  >> if with postgresql db
 
-* Ruby version
+- rails new mustdo -d mysql >> if with mysql db
 
-* System dependencies
+2. Migrasi
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- buat db dan kolomnya :
+  rails generate migration [nama_table]
+  
